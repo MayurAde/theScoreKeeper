@@ -1,0 +1,42 @@
+.scoreBody{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ScoreArea{
+    
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        /* background-color: #7149C6;  */
+        padding: 15px;
+        width: 90% ;
+        height: 400px;
+        
+
+      
+
+    
+}
+.scoreArea__inner{
+    display: flex;
+    /* background-color: grey; */
+    flex-direction: row;
+    justify-content: space-around;
+    /* background-color: orange; */
+    width: 1000px;
+    padding: 15px;
+}
+
+
+.runButtons{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+   
+}

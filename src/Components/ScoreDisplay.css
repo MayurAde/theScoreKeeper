@@ -1,0 +1,40 @@
+
+.teamScore{
+
+    background-color: rgb(127, 207, 127);
+    width: 300px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 5px solid grey;
+    font-weight: bolder;
+    padding: 15px;
+    
+   
+}
+
+
+.teamName{
+    background-color: rgb(172, 35, 35);
+    padding: 2px 12px;
+    border-radius: 5px;
+    /* justify-self: end; */
+}
+
+
+.score{
+    font-size: 36px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.score .overs {
+   font-size: 18px;
+   color: rgb(54, 53, 53);
+}
+

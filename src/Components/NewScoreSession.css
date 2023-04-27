@@ -1,0 +1,40 @@
+
+
+.sessionArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #7149C6;
+    padding: 15px;
+    margin: 15px 145px;
+    
+}
+
+
+
+
+.teamNames{
+    display: flex;
+
+}
+
+.team1 label, .team2 label {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.team1, .team2 {
+    /* background-color: rgb(8, 54, 8);  */
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.overInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
